@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "NextShot",
+  "version": "1.4",
+  "description": "This addon will direct you to the next lightshot image :>",
+  "author": "ThePixly",
+  "icons": {
+    "48": "nextshot.png"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "menus"
+  ],
+  "browser_action": {
+    "default_icon": "nextshot.png",
+    "default_title": "NextShot"
+  },
+  "background": {
+    "scripts": ["next.js"]
+  }
+}
